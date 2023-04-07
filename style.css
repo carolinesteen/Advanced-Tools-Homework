@@ -11,7 +11,7 @@ body {
 h1,
 h2,
 h3 {
-  margin: 0;
+  margin: 0 auto;
 }
 
 h1 {
@@ -30,6 +30,25 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+}
+
+@media (max-width: 400px) {
+  .primary-link {
+    font-size: 13px;
+  }
+  img {
+    display: block;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 }
 
 .navigation-links {
